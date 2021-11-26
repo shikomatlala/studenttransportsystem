@@ -1,0 +1,20 @@
+            <title>User Login</title>
+</head>
+<body>
+    <div id="loginSpace">
+        <br>
+        <h1>Welcome to the student Transport System</h1>
+        <h2>Enter Your details to login</h2>
+        <form action="user/loginUser.php" method="POST">
+            <label id="userIdInputLabel" for="userIdInput" >User ID</label><br>
+            <input type="text" name="userIdInput" placeholder="User ID" oninput="validateNameInput()"><br><br>
+
+            <label id="userPassInputLabel" for="userPasswordInput">Password</label><br>
+            <input type="text" name="userPasswordInput" placeholder="Password"><br><br>
+            <input type="submit" id="submitUserLogingDetail" name="submitLogin" value="Submit">
+        </form>
+
+        <a href="user/newUser.html">New User</a>
+        <a href="user/forgotPassword.html">Forgot Password</a>
+    </div>
+</body>
